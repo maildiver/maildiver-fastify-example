@@ -1,0 +1,21 @@
+{
+  "name": "maildiver-fastify-example",
+  "version": "1.0.0",
+  "description": "Maildiver Fastify Typescript Example",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsx --env-file=.env index.ts"
+  },
+  "author": "Maildiver",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "fastify": "^4.27.0",
+    "maildiver": "^0.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  }
+}
